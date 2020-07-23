@@ -93,13 +93,21 @@ body {
     padding: 10px 10px;
     text-align: center;
   }
+  
+  .flag{
+  position: relative;
+  padding-top: 2px;
+  font-size: 3rem;
+  }
+  
   #level-title{
     font-size: 30px;
   }
+  
   .btn {
     display:inline-flex;
-    height: 120px;
-    width: 120px;
+    height: 180px;
+    width: 180px;
     border: 10px solid black;
     border-radius: 20%;
   }
