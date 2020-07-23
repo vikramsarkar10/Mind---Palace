@@ -89,16 +89,17 @@ body {
 
 @media (max-width: 1028px) {
   body{
+    margin: 0;
     padding: 10px 10px;
     text-align: center;
   }
   #level-title{
-    font-size: 20px;
+    font-size: 30px;
   }
   .btn {
     display:inline-flex;
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 120px;
     border: 10px solid black;
     border-radius: 20%;
   }
