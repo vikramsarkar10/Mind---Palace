@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  background-image: url('sky.jpg');
+}
+
+.title{
+  margin-top: 0;
+  font-size: 5rem;
+  color: #fbfd8a;
+  font-family: 'Ranchers', cursive;
+}
+
+.game-red{
+  background-image: linear-gradient(to right, red,red);
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+/* .container {
+  display: block;
+  width: 50%;
+  margin: auto;
+} */
+
+#restart{
+  padding: 5px 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  text-align: center;
+}
+
+.flag{
+  margin-top: 0px;
+  font-size: 3rem;
+  color: blue;
+}
+
+.btn {
+  margin: 30px 30px;
+  display:inline-flex;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.restart{
+  background-color: black;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.signature{
+  padding-top: 20px;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  text-decoration-style: solid;
+  text-shadow: 1px 1px 20px yellow;
+}
+
+/* for mobile view */
+@media (max-width: 1300px) {
+  .title{
+    padding-top: 70px;
+  }
+  #level-title{
+    margin-bottom: 30px;
+    padding-top: 100px;
+    font-size: 40px;
+    line-height: 4rem;
+  }
+  .titles{
+    margin-bottom: 100px;
+  }
+
+  #restart{
+    margin-bottom: 100px;
+    padding: 40px 40px;
+    height: 50px;
+    width: 50px;
+    background-color: #c4fb6d;
+    text-align: center;
+    position: relative;
+    background-color: black;
+  }
+
+  .btn {
+    display:inline-flex;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  .flag{
+    padding-bottom: 100px;
+    font-size: 4rem;
+    color: blue;
+  }
+
+  .signature{
+    margin-top: 200px;
+  }
+}
