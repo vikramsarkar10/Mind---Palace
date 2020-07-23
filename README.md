@@ -2,6 +2,7 @@
 https://vikramsarkar10.github.io/Mind-Palace/
 Test your memory ! Play the game now !!
 A color sequence game to test how well you can remember the color sequence. It's a game made from frontend libraries.
+I made quite responsive, so play in any device you want.
 
 Instructions to play :
 1. Press a key to start the game.
