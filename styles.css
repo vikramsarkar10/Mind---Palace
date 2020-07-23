@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-image: url('sky.jpg');
+}
+
+.title{
+  font-size: 5rem;
+  color: #fbfd8a;
+  font-family: 'Ranchers', cursive;
+}
+.game-red{
+  background-image: linear-gradient(to right, red,red);
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+/* .container {
+  display: block;
+  width: 50%;
+  margin: auto;
+} */
+
+#restart{
+  margin: 25px;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  background-color: #c4fb6d;
+  text-align: center;
+}
+
+.flag{
+  position: relative;
+  padding-top: 5px;
+  font-size: 2rem;
+}
+.btn {
+  margin: 25px;
+  display:inline-flex;
+  height: 170px;
+  width: 170px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.restart{
+  background-color: #c4fb6d;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.signature{
+  padding-top: 20px;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  text-decoration-style: solid;
+  text-shadow: 1px 1px 20px yellow;
+}
+
+@media (max-width: 1028px) {
+  body{
+    padding: 10px 10px;
+    text-align: center;
+  }
+  #level-title{
+    font-size: 20px;
+  }
+  .btn {
+    display:inline-flex;
+    height: 60px;
+    width: 60px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+}
